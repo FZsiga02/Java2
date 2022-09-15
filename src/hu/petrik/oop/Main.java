@@ -32,6 +32,14 @@ public class Main {
         }
 
         System.out.printf("A legtávolabbi pont az origótól: a(z) %d pont, koordinátái: %s, origótól mért távolsága: %.3f", legtavolabbPontIndex + 1, pontok[legtavolabbPontIndex], pontok[legtavolabbPontIndex].getOrigotolMertTavolsag());
+        System.out.println("");
+
+        //Két pont távolsága
+        if (p1.getKetPontTavolsaga()>p3.getKetPontTavolsaga()){
+            System.out.printf("A(z) %s és a(z) %s koordinátájú pontok távolsága: %.0f", p4, p3, p4.getKetPontTavolsaga()- p3.getKetPontTavolsaga());
+        }else{
+            System.out.printf("A(z) %s és a(z) %s koordinátájú pontok távolsága: %.0f", p4, p3, p3.getKetPontTavolsaga()- p4.getKetPontTavolsaga());
+        }
     }
 
 }
