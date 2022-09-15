@@ -40,6 +40,10 @@ public class Main {
         }else{
             System.out.printf("A(z) %s és a(z) %s koordinátájú pontok távolsága: %.0f", p4, p3, p3.getKetPontTavolsaga()- p4.getKetPontTavolsaga());
         }
+        System.out.println("");
+
+        //Pont helye síknegyedben
+        System.out.printf("A(z) %s koordinátájú pont síknegyede: %s", p4, p4.getSiknegyed());
     }
 
 }

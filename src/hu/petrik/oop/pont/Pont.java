@@ -38,6 +38,25 @@ public class Pont {
         return tavolsag;
     }
 
+    public String getSiknegyed() {
+        if (this.x<0){
+            if (this.y<0){
+                return "Bal alsó";
+            }
+            else{
+                return "Bal felső";
+            }
+        } else if (this.x>0){
+            if (this.y<0){
+                return "Jobb alsó";
+            }else{
+                return "Jobb felső";
+            }
+        }else{
+            return "Origo";
+        }
+    }
+
     @Override
     public String toString() {
         //return "(" + x + ", " + y + ")";
