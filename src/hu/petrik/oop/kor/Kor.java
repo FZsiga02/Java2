@@ -23,6 +23,10 @@ public class Kor {
         this.r = (int)(Math.random() * (2 * 100) + 1) - 100;
     }
 
+    public double getKerulet(){
+        double kerulet = 2*r*Math.PI;
+        return kerulet;
+    }
 }
 
 

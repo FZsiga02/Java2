@@ -1,5 +1,6 @@
 package hu.petrik.oop;
 
+import hu.petrik.oop.kor.Kor;
 import hu.petrik.oop.pont.Pont;
 
 public class Main {
@@ -44,6 +45,7 @@ public class Main {
 
         //Pont helye síknegyedben
         System.out.printf("A(z) %s koordinátájú pont síknegyede: %s", p4, p4.getSiknegyed());
+        System.out.println("");
     }
 
 }
