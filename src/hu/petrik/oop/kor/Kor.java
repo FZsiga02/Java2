@@ -37,6 +37,10 @@ public class Kor {
         this.r += meret;
         return this.r;
     }
+
+    public String getAdatok(){
+        return "("+this.x+","+this.y+","+this.r+")";
+    }
 }
 
 

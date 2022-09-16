@@ -19,7 +19,10 @@ public class Main {
 
         //Kör méretezése
         System.out.printf("Kérem adja meg mennyivel legyen nagyítva/kicsinyítve a kör (+/-): ");
-        System.out.println("");
         System.out.printf("A kör új mérete: %.2f", k1.getMeretezes(sc.nextInt()));
+        System.out.println("");
+
+        //Kör adatai
+        System.out.printf("A kör adatai: %s", k1.getAdatok());
     }
 }
