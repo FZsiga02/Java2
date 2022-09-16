@@ -27,6 +27,11 @@ public class Kor {
         double kerulet = 2*r*Math.PI;
         return kerulet;
     }
+
+    public double getTerulet(){
+        double terulet = r*r*Math.PI;
+        return terulet;
+    }
 }
 
 
