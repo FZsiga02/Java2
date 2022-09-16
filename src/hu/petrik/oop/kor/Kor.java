@@ -5,6 +5,10 @@ public class Kor {
     private int y;
     private int r;
 
+    public int getR() {
+        return r;
+    }
+
     public Kor(int x, int y, int r) {
         this.x = x;
         this.y = y;
@@ -41,6 +45,7 @@ public class Kor {
     public String getAdatok(){
         return "("+this.x+","+this.y+","+this.r+")";
     }
+
 }
 
 
