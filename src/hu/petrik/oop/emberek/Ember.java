@@ -27,6 +27,12 @@ public class Ember {
 
     public int getEletkor() {
         LocalDate maiDatum = LocalDate.now();
+        if (maiDatum.getMonthValue()<=this.getSzuletesiHonap()){
+            return maiDatum.getYear() - this.getSzuletesiEV() - 1;
+        } else if (maiDatum.getMonthValue()==this.getSzuletesiHonap() && maiDatum.getDayOfMonth()>=this.getSzuletesiNap()){
+            return maiDatum.getYear() - this.getSzuletesiEV();
+        }else
+
         return maiDatum.getYear() - this.getSzuletesiEV();
     }
 
